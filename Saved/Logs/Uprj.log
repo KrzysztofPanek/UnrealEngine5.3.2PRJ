@@ -1141,3 +1141,50 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2025.03.05-15.01.57:391][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.087443 secs
 [2025.03.05-15.01.57:438][  2]LogD3D12RHI: Cannot end block when stack is empty
 [2025.03.05-15.02.06:052][774]LogViewport: Scene viewport resized to 1526x892, mode Windowed.
+[2025.03.05-15.03.38:983][561]LogDerivedDataCache: C:/Users/p2762162/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.094 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 546 files in 903 folders with total size 3 MiB.
+[2025.03.05-15.21.09:166][442]LogSlate: Took 0.000982 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.03.05-15.22.14:191][ 84]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.05-15.22.15:028][ 85]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Vehicles/SportsCar/SKM_SportsCar.SKM_SportsCar
+[2025.03.05-15.22.15:028][ 85]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Vehicles/SportsCar/SKM_SportsCar.SKM_SportsCar
+[2025.03.05-15.22.15:031][ 85]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Vehicles/SportsCar/SKM_SportsCar.SKM_SportsCar as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2025.03.05-15.22.15:034][ 85]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Vehicles/SportsCar/SKM_SportsCar.SKM_SportsCar as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: ================================================
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Total job queries 15, among them cache hits 0 (0.00%)
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Tracking 3 distinct input hashes that result in 2 distinct outputs (66.67%)
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: RAM used: 69.37 KiB of 819.20 MiB budget. Usage: 0.01%
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Shaders Compiled: 3
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Jobs assigned 11, completed 3 (27.27%)
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Time job spent in pending queue: average 0.36 s, longest 1.36 s
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Job execution time: average 1.29 s, max 1.38 s
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Job life time (pending + execution): average 1.37 s, max 1.38
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Shader code size: average 38.537 KiB, min 37.809 KiB, max 39.996 KiB
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.38 s
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Jobs were issued in 9 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Average processing rate: 2.18 jobs/sec
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Total thread time: 1.833 s
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Total thread preprocess time: 0.295 s
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Percentage time preprocessing: 16.08%
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Effective parallelization: 1.33 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.03.05-15.22.15:978][114]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2025.03.05-15.22.15:979][114]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.68 sec, max 0.68 sec, min 0.68 sec)
+[2025.03.05-15.22.15:979][114]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.58 sec, max 0.59 sec, min 0.57 sec)
+[2025.03.05-15.22.15:979][114]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2025.03.05-15.22.15:979][114]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 63.16% of total time (compiled    2 times, average 0.58 sec, max 0.59 sec, min 0.57 sec)
+[2025.03.05-15.22.15:979][114]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 36.84% of total time (compiled    1 times, average 0.68 sec, max 0.68 sec, min 0.68 sec)
+[2025.03.05-15.22.15:979][114]LogShaderCompilers: Display: ================================================
+[2025.03.05-15.22.19:961][423]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.05-15.22.20:300][424]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.05-15.22.20:940][458]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Vehicles/SportsCar/SKM_SportsCar.SKM_SportsCar
+[2025.03.05-15.22.20:940][458]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Vehicles/SportsCar/SKM_SportsCar.SKM_SportsCar
+[2025.03.05-15.22.20:953][458]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Vehicles/SportsCar/SKM_SportsCar.SKM_SportsCar as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_UAID_9C7BEF43C70E445202_1923513055
+[2025.03.05-15.22.20:954][458]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Vehicles/SportsCar/SKM_SportsCar.SKM_SportsCar as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_UAID_9C7BEF43C70E445202_1923513055
+[2025.03.05-15.22.21:126][459]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.05-15.22.51:303][765]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2025.03.05-15.22.51:333][765]LogPackageLocalizationCache: Processed 47 localized package path(s) for 1 prioritized culture(s) in 0.007409 seconds
+[2025.03.05-15.22.51:354][765]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/FY/TFE07OJKJC1VU8U0UK02IH_Auto1
+[2025.03.05-15.22.51:355][765]LogSavePackage: Moving 'H:/Documents/Unreal Projects/Uprj/UnrealEngine5.3.2PRJ/Saved/TFE07OJKJC1VU8U0UK02IH_Auto1D8428CDC4DCEE2F2BF942D9C0B26CB17.tmp' to 'H:/Documents/Unreal Projects/Uprj/UnrealEngine5.3.2PRJ/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/FY/TFE07OJKJC1VU8U0UK02IH_Auto1.uasset'
+[2025.03.05-15.22.51:366][765]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.087
+[2025.03.05-15.22.51:366][765]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.087
